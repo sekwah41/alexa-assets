@@ -1,6 +1,6 @@
-# alexa-assets
+# alexa-assets (WIP)
 
-Simple assets for making rest responses to Alexa
+Simple assets for making rest responses to Alexa, the purpose of this project is to create objects and documentation to help with creating responses to make simple or complex skills easier.
 
 Uses language version ECMAScript 6 as that is what I am using generally for NodeJS atm.
 
