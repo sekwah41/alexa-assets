@@ -103,7 +103,7 @@ class StandardCard extends SimpleCard {
         super("Simple");
         this.title = title;
         this.content = content;
-        this.image =
+        this.image = image;
     }
     getTitle() {
         return this.title;
