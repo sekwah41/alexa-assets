@@ -81,16 +81,45 @@ class SimpleCard extends Card {
      * @param title of card
      * @param text of card
      */
-    constructor(title, text) {
+    constructor(title, content) {
         super("Simple");
         this.title = title;
-        this.text = text;
+        this.content = content;
     }
     getTitle() {
         return this.title;
     }
-    getText() {
-        return this.text;
+    getContent() {
+        return this.content;
+    }
+}
+
+class StandardCard extends SimpleCard {
+    /**
+     * @param title of card
+     * @param text of card
+     */
+    constructor(title, content, image) {
+        super("Simple");
+        this.title = title;
+        this.content = content;
+        this.image =
+    }
+    getTitle() {
+        return this.title;
+    }
+    getContent() {
+        return this.content;
+    }
+}
+
+/**
+ * You can set one or both of the large and small.
+ */
+class CardImage {
+    constructor(smallImageUrl, largeImageUrl) {
+        this.smallImageUrl = smallImageUrl;
+        this.largeImageUrl = largeImageUrl;
     }
 }
 exports.SimpleCard = SimpleCard;
