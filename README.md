@@ -1,4 +1,6 @@
-# alexa-assets (WIP)
+# alexa-assets (Major WIP)
+
+Currently mostly on npm to reserve the name and also show development progress
 
 Simple assets for making rest responses to Alexa, the purpose of this project is to create objects and documentation to help with creating responses to make simple or complex skills easier.
 
